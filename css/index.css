@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e202b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-p {
+    font-size: x-small;
+    color: gainsboro;
+}
+
+ /* ul li .a{
+    color : white;
+}
+ul li a:hover{
+    color : #0d6efd;
+    border : 2px solid #0d6efd;
+    border-radius: 45%; 
+}  */
+.cover {
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.form-control {
+    background-color: #1e202b;
+    border: #1e202b solid;
+}
+
+.form-control:focus {
+    background-color: #1e202b;
+    border: none;
+}
+.textarea{
+    color: white;
+}
+
+.find-location {
+    position: relative;
+}
+
+.find-location input[type="submit"],
+.find-location input[type="button"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+
+ .forecast-container {
+    background-color: #1e202b;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    color: aliceblue;
+    border-radius: 10px;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+
+.forecast-container .forecast {
+    width: 33.33%;
+   
+}
+
+.forecast-container .forecast:nth-child(even) {
+    background-color: #2f3243;
+}
+.forecast-container .forecast-header  {
+    display: flex;
+    justify-content: space-between;
+} 
+footer{
+   background-color:  #262936;
+}
+.icona {
+    width: 3rem;
+    height: 3rem;
+}
+.icona{
+    color :#0dcaf0;
+    background-color: #1f212c;
+}
+.icona:hover {
+    background-color: #0dcaf0;
+    color: white;
+}
+
+
+

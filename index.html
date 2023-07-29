@@ -1,0 +1,117 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-transparent ">
+        <div class="container p-5">
+            <div class="row g-1">
+                <div class="col-6">
+                    <img class="" src="images/logo.png">
+                </div>
+                <div class="col-6">
+                    <a class="navbar-brand text-white fw-bold" href="#">Weather</a>
+                    <div class="col">
+                        <p class="text-secondary nav-p"> tagline goes here </p>
+                    </div>
+                </div>
+            </div>
+            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-white"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-info border border-2 rounded-pill border-info px-3"
+                            aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white px-4" href="#">News</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white px-4" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white px-4" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white px-4" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="cover">
+        <div class="layer bg-black bg-opacity-50 h-50">
+            <div class="container p-5">
+                <form class="find-location mb-5">
+                    <input type="button" class="btn btn-info text-white rounded-pill py-2 px-4 find-btn" id="submit"
+                        value="Find">
+
+                    <input type="text" class="form-control rounded-pill p-3 find-input text-white"
+                        placeholder="Find your location..." id="search">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="layer bg-black bg-opacity-50 p-5">
+        <div class="container">
+            <div class="forecast-container w-100" id="forecast">
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <footer>
+        <div class="container p-5">
+            <div class="row g-5">
+                <div class="col-7">
+                    <form class="find-location mb-5">
+                        <input type="button" class="btn btn-info text-white rounded-pill py-2 px-4 find-btn" id=""
+                            value="Subscribe">
+
+                        <input type="text" class="form-control rounded-pill p-3 find-input text-white"
+                            placeholder="Enter your email to subscribe..."  id="">
+                    </form>
+                    <p class="text-secondary">Copyright 2014 Company name. Designed by Themezy. All rights reserved </p>
+                </div>
+                <div class = "col-4">
+                    <div class="social media d-flex">
+                        <div
+                            class="icona m-1 rounded-circle d-flex justify-content-center align-items-center ">
+                            <i class="fa-brands fa-facebook fa-3 "></i>
+                        </div>
+                        <div
+                            class="icona m-1 rounded-circle d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-instagram fa-3 "></i>
+                        </div>
+                        <div
+                            class="icona m-1 rounded-circle d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-twitter fa-3 "></i>
+                        </div>
+                        <div
+                            class="icona m-1 rounded-circle d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-linkedin fa-3 "></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
